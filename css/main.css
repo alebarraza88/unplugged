@@ -100,6 +100,11 @@ header .content-wrapper{
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
+}
+header figure{
+
+}
+.header-divider{
 
 }
 header nav{
@@ -111,23 +116,37 @@ header nav{
 }
 header nav ul{
   display: flex;
+  align-items:center;
   justify-content: space-around;
 
 }
 /*    Footer styles     */
+footer .content-wrapper{
+
+}
+.footer-info{
+
+}
+footer .contact{
+
+}
+.contact h4{
+
+}
+.contact address{
+
+}
 footer .social-icons{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-footer .contact{
-
-}
 footer .social-icons p{
   display: flex; 
   justify-content: center;
-  align-items:center;}
+  align-items:center;
+}
 
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -139,6 +158,13 @@ footer .social-icons p{
   justify-content: center;
   flex-flow: row wrap;
 }
+main .content-wrapper{
+
+}
+main .content-wrapper h1{
+
+}
+
 
 /* Aside */
 
@@ -148,13 +174,36 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+aside .content-wrapper{
 
+}
+.form-description{
+
+}
+.form-description h3{
+
+}
+.form-description p{
+
+}
+.form h3{
+
+}
+.form {
+
+}
 /* Features */
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.features .content-wrapper {
+
+}
+.features article{
+   
 }
 
 .features .features-icons {
@@ -163,7 +212,9 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+p .featues-description{
 
+}
 /* Reviews */
 
 .reviews {
@@ -171,23 +222,67 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+.reviews .content-wrapper{
+  display:flex;
+  justify-content:center;
+  flex-flow: row wrap;
+}
+.reviews h2{
+
+}
+.reviews article{
+
+}
+.reviews p{
+  display:flex;
+  justify-content:center;
+  flex-flow: row wrap;
+}
 
 /* ==========================================================================
    About Page
    ========================================================================== */
-
+/* ------ Mission ----- */
 .mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+main .content-wrapper h4{
+
+}
+ .mission-content h2{
+
+}
+ .mission-content p{
+ }
+/*------ Map ------*/
+
+.map figure{
+
+}
+
+/* ---- General Contact Area---- */
 
 .contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+main .content-wrapper h2{
+
+}
+.contact-content{
+
+}
+.contact-content h4{
+
+}
+.contact-content address{
+  
 }
 
 /* ==========================================================================
