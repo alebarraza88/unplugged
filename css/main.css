@@ -86,49 +86,73 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*---------- Hader - Footer Styles --------*/
+
+.content-wrapper{
+  width: 90%;
+  margin: 50px 0;
+}
+
+   /*---------- Hader - Footer Styles --------*/
    header,
 footer{
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  
 }
 /** Header styles */
+header{
+  padding: 15px 0;
+}
 
 header .content-wrapper{
   display:flex;
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
+  margin: 0;
 }
 header figure{
 
 }
 .header-divider{
-
+  width:100%;
+  padding: 10px 0 20px;
+  height: 2px;
 }
 header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 
 }
 header nav ul{
   display: flex;
   align-items:center;
   justify-content: space-around;
+  width: 100%;
 
 }
 /*    Footer styles     */
-footer .content-wrapper{
 
+footer{
+  flex-direction: column;
+}
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px;
+}
+footer p{
+  margin: 0;
 }
 .footer-info{
 
 }
 footer .contact{
-
+  margin-bottom: 50px;
 }
 .contact h4{
 
@@ -146,6 +170,9 @@ footer .social-icons p{
   display: flex; 
   justify-content: center;
   align-items:center;
+}
+footer .copyright{
+  margin: 20px 0;
 }
 
 
@@ -205,15 +232,18 @@ aside .content-wrapper{
 .features article{
    
 }
-
+.features h2{
+  margin-bottom: 60px;
+}
 .features .features-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-p .featues-description{
-
+.featues-description p {
+  margin:0;
+ 
 }
 /* Reviews */
 
@@ -228,7 +258,11 @@ p .featues-description{
   flex-flow: row wrap;
 }
 .reviews h2{
-
+  margin-bottom: 40px;
+}
+.reviews h3{
+  width: 55%;
+  margin: 20px 0;
 }
 .reviews article{
 
@@ -278,11 +312,14 @@ main .content-wrapper h2{
 .contact-content{
 
 }
+.contact-content p{
+  margin:0;
+}
 .contact-content h4{
 
 }
 .contact-content address{
-  
+
 }
 
 /* ==========================================================================
@@ -296,11 +333,29 @@ main .content-wrapper h2{
   flex-flow: row wrap;
 }
 
-.faq .content-wrapper {
+.questions .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;}
+  flex-flow: row wrap;
+}
+
+
+.questions h2{
+  margin-bottom: 40px;
+
+}
+.faq{
+  margin-bottom: 50px;
+
+}
+.faq h4{
+
+}
+.faq p{
+
+}
 
 
 
