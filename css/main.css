@@ -311,7 +311,13 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
-.features p {
+.features-icons i{
+	font-size: 3.75em;
+  margin-bottom: 40px;
+ 
+  
+}
+.features-description p {
   text-align:center;
   margin:0;
  
