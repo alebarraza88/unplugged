@@ -128,11 +128,11 @@ textarea {
    }
     
    img {
-    
+    width: 100%;
    }
     
    figure {
-    
+    margin:0;
    }
     
    address {
@@ -167,9 +167,7 @@ header .content-wrapper{
   flex-flow: row wrap;
   margin: 0;
 }
-header figure{
 
-}
 .header-divider{
   width:100%;
   padding: 10px 0 20px;
@@ -186,6 +184,13 @@ header nav{
   font-weight:700;
   text-transform: uppercase;
 
+}
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 header nav ul{
   display: flex;
@@ -235,6 +240,8 @@ footer .copyright{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
 }
 .hero-area h1{
   font-size: 2.668em;
@@ -285,6 +292,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat #333 ;
+  background-size: cover;
 }
 .features h2{
   margin-bottom: 60px;
@@ -495,17 +504,6 @@ input[type=button] {
   margin: 100px 0;
 }
 
- 
-h2{
-  font-size: 2.25em;
-  line-height: 1.333em;    
-}
-h3{
-  font-size: 1.5em;
-  line-height: 1.125;
-}
-
-   
       /* Header */
    
 header {
@@ -518,14 +516,12 @@ header .content-wrapper {
   justify-content: space-between ;
 }
 header figure{
+  width: 25%
+}
+header nav {
   width: 30%;
 }
 
-header nav {
-  width: 20%;
-
-}
-   
  header nav ul {
   justify-content: space-between;
 }
@@ -584,6 +580,9 @@ aside .content-wrapper .form {
   width:75%;
   margin: 0;
 }
+.reviews article figure{
+  width: 48%;
+}
    
     /* Footer */
 
@@ -616,7 +615,7 @@ footer .copyright {
   /* ==========================================================================
                             About Page
  ========================================================================== */
-   
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -626,6 +625,9 @@ footer .copyright {
    
 .mission-content p {
   width:45%;
+}
+header nav{
+  width: 25%;
 }
    
 .contact-section .content-wrapper h2 {
@@ -669,6 +671,9 @@ header{
 }
 .content-wrapper {
   max-width: 960px;
+}
+header figure{
+  width: 35%;
 }
 
 h2{
@@ -718,7 +723,9 @@ aside .content-wrapper .form {
 .reviews h2{
   padding-bottom: 50px;
 }
-        
+.reviews article figure{
+  width: 50%;
+}      
 .reviews article div {
    width: 42%
 }
