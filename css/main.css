@@ -216,16 +216,24 @@ footer p{
 footer .contact{
   margin-bottom: 50px;
 }
-footer .social-icons{
+footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-footer .social-icons p{
-  display: flex; 
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 footer .copyright{
   margin: 20px 0;
@@ -314,7 +322,6 @@ input[type=button] {
 .features-icons i{
 	font-size: 3.75em;
   margin-bottom: 40px;
- 
   
 }
 .features-description p {
